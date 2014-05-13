@@ -5,6 +5,10 @@ body {
     width: 600px;
 }
 
+img {
+    max-width: 600px;
+}
+
 div#header {
     border-bottom: 2px solid black;
     margin-bottom: 30px;
