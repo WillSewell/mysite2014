@@ -1,5 +1,6 @@
 _cache/
 _site/
+bower_components/*
 site
 site.hi
 site.o

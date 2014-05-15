@@ -1,0 +1,13 @@
+{
+  "name": "mysite2014",
+  "version": "0.0.1",
+  "homepage": "http://willsewell.name/",
+  "authors": [
+    "Will Sewell <me@willsewell.name>"
+  ],
+  "description": "Personal website of Will Sewell.",
+  "dependencies": {
+    "lightbox2": "~2.7.1"
+  },
+  "private": true
+}
