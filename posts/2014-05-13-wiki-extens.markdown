@@ -2,7 +2,7 @@
 title: Chrome Extensions to Make Wikipedia Clean, Usable, and Beautiful
 ---
 
-I have never been satisfied with the style of default Wikipedia pages. It only took me about eight years to do something about it. My primary frustration concerned the width of lines; my browser is full-screen, and I would often loose my place when scanning for the start of the next line. [Research suggests](http://www.sciencedirect.com/science/article/pii/S1071581901904586 "The influence of reading speed and line length on the effectiveness of reading from screen") a median line width of 55 characters per line is optimal.
+I have never been satisfied with the style of default Wikipedia pages. It only took me about eight years to do something about it. My primary frustration concerned the width of lines; my browser is full-screen, and I would often lose my place when scanning for the start of the next line. [Research suggests](http://www.sciencedirect.com/science/article/pii/S1071581901904586 "The influence of reading speed and line length on the effectiveness of reading from screen") a median line width of 55 characters per line is optimal.
 
 With that in mind I tried out practically every Wikipedia related extension in the Google App Store. Not only did I solve my original problem, but I have found extensions that have improved Wikipedia *in almost every way*.
 
