@@ -25,6 +25,7 @@ main = hakyllWith config $ do
         route $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
+            >>= saveSnapshot "content"
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
 
@@ -59,6 +60,14 @@ main = hakyllWith config $ do
 
     match "templates/*" $ compile templateCompiler
 
+    create ["atom.xml"] $ do
+        route idRoute
+        compile $ do
+            let feedCtx = postCtx `mappend` bodyField "description"
+            posts <- fmap (take 10) . recentFirst =<<
+                loadAllSnapshots "posts/*" "content"
+            renderAtom myFeedConfiguration feedCtx posts
+
 
 --------------------------------------------------------------------------------
 postCtx :: Context String
@@ -70,4 +79,13 @@ config :: Configuration
 config = defaultConfiguration
     { deployCommand = "rsync --checksum -ave ssh \
                       \_site/* me@willsewell.name:mysite2014"
+    }
+
+myFeedConfiguration :: FeedConfiguration
+myFeedConfiguration = FeedConfiguration
+    { feedTitle       = "Will Sewell"
+    , feedDescription = "The blog of Will Sewell."
+    , feedAuthorName  = "Will Sewell"
+    , feedAuthorEmail = "me@willsewell.name"
+    , feedRoot        = "http://willsewell.name"
     }
