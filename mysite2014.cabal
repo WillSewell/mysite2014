@@ -1,0 +1,15 @@
+name:                mysite2014
+version:             0.1.0.0
+author:              Will Sewell
+maintainer:          me@willsewell.com
+copyright:           2016 Will Sewell
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable mysite2014
+  main-is:             site.hs
+  default-language:    Haskell2010
+  ghc-options:         -threaded
+  build-depends:       base,
+                       hakyll
