@@ -15,7 +15,7 @@ main = hakyllWith config $ do
         route   idRoute
         compile compressCssCompiler
 
-    match (fromList ["about.markdown", "contact.markdown"]) $ do
+    match "contact.markdown" $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
@@ -29,23 +29,22 @@ main = hakyllWith config $ do
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
 
-    create ["archive.html"] $ do
+    create ["blog.html"] $ do
         route idRoute
         compile $ do
             posts <- recentFirst =<< loadAll "posts/*"
-            let archiveCtx =
+            let blogCtx =
                     listField "posts" postCtx (return posts) `mappend`
-                    constField "title" "Archives"            `mappend`
+                    constField "title" "Blog"                `mappend`
                     defaultContext
 
             makeItem ""
-                >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
-                >>= loadAndApplyTemplate "templates/default.html" archiveCtx
+                >>= loadAndApplyTemplate "templates/blog.html" blogCtx
+                >>= loadAndApplyTemplate "templates/default.html" blogCtx
                 >>= relativizeUrls
 
-
-    match "index.html" $ do
-        route idRoute
+    match "index.markdown" $ do
+        route   $ setExtension "html"
         compile $ do
             posts <- recentFirst =<< loadAll "posts/*"
             let indexCtx =
@@ -53,7 +52,7 @@ main = hakyllWith config $ do
                     constField "title" "Home"                `mappend`
                     defaultContext
 
-            getResourceBody
+            pandocCompiler
                 >>= applyAsTemplate indexCtx
                 >>= loadAndApplyTemplate "templates/default.html" indexCtx
                 >>= relativizeUrls
@@ -86,6 +85,6 @@ myFeedConfiguration = FeedConfiguration
     { feedTitle       = "Will Sewell"
     , feedDescription = "The blog of Will Sewell."
     , feedAuthorName  = "Will Sewell"
-    , feedAuthorEmail = "me@willsewell.name"
-    , feedRoot        = "http://willsewell.name"
+    , feedAuthorEmail = "me@willsewell.com"
+    , feedRoot        = "http://willsewell.com"
     }
