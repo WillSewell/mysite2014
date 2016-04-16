@@ -15,7 +15,7 @@ main = hakyllWith config $ do
         route   idRoute
         compile compressCssCompiler
 
-    match "contact.markdown" $ do
+    match "contact.md" $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
@@ -43,7 +43,7 @@ main = hakyllWith config $ do
                 >>= loadAndApplyTemplate "templates/default.html" blogCtx
                 >>= relativizeUrls
 
-    match "index.markdown" $ do
+    match "index.md" $ do
         route   $ setExtension "html"
         compile $ do
             posts <- recentFirst =<< loadAll "posts/*"
