@@ -76,7 +76,7 @@ config :: Configuration
 config =
   defaultConfiguration
     { deployCommand =
-      "rsync --checksum -ave ssh _site/* me@willsewell.name:mysite2014"
+      "rsync --checksum -ave ssh _site/* me@willsewell.com:mysite2014"
     }
 
 myFeedConfiguration :: FeedConfiguration
