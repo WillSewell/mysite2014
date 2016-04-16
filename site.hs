@@ -1,5 +1,5 @@
 {-# LANGUAGE OverloadedStrings #-}
-import Data.Monoid (mappend)
+import Data.Monoid ((<>))
 import Hakyll
 
 main :: IO ()
@@ -33,9 +33,9 @@ main =
         posts <- recentFirst =<< loadAll "posts/*"
         let
           blogCtx =
-            listField "posts" postCtx (return posts) `mappend`
-            constField "title" "Blog" `mappend`
-            defaultContext
+            listField "posts" postCtx (return posts)
+              <> constField "title" "Blog"
+              <> defaultContext
 
         makeItem ""
           >>= loadAndApplyTemplate "templates/blog.html" blogCtx
@@ -48,9 +48,9 @@ main =
         posts <- recentFirst =<< loadAll "posts/*"
         let
           indexCtx =
-            listField "posts" postCtx (return posts) `mappend`
-            constField "title" "Home" `mappend`
-            defaultContext
+            listField "posts" postCtx (return posts)
+            <> constField "title" "Home"
+            <> defaultContext
 
         pandocCompiler
           >>= applyAsTemplate indexCtx
@@ -62,14 +62,14 @@ main =
     create ["atom.xml"] $ do
       route idRoute
       compile $ do
-        let feedCtx = postCtx `mappend` bodyField "description"
+        let feedCtx = postCtx <> bodyField "description"
         posts <-
           fmap (take 10) . recentFirst =<< loadAllSnapshots "posts/*" "content"
         renderAtom myFeedConfiguration feedCtx posts
 
 postCtx :: Context String
 postCtx =
-  dateField "date" "%B %e, %Y" `mappend`
+  dateField "date" "%B %e, %Y" <>
   defaultContext
 
 config :: Configuration
