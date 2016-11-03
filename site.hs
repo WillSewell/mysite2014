@@ -67,6 +67,10 @@ main =
           fmap (take 10) . recentFirst =<< loadAllSnapshots "posts/*" "content"
         renderAtom myFeedConfiguration feedCtx posts
 
+    match "keybase.txt" $ do
+      route   idRoute
+      compile copyFileCompiler
+
 postCtx :: Context String
 postCtx =
   dateField "date" "%B %e, %Y" <>

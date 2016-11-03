@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/willsewell
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://willsewell.com
+  * I am willsewell (https://keybase.io/willsewell) on keybase.
+  * I have a public key with fingerprint 7789 ACED 15B8 F832 58D7  A097 9A5D 8865 125B 3A87
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101d233030261a36641e07ebe3cca0696933d0c1163901fa42f3a769719f8208ed20a",
+            "fingerprint": "7789aced15b8f83258d7a0979a5d8865125b3a87",
+            "host": "keybase.io",
+            "key_id": "9a5d8865125b3a87",
+            "kid": "0101d233030261a36641e07ebe3cca0696933d0c1163901fa42f3a769719f8208ed20a",
+            "uid": "18237e092107c9c51190118dd207cf19",
+            "username": "willsewell"
+        },
+        "service": {
+            "hostname": "willsewell.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1478174725,
+    "expire_in": 157680000,
+    "prev": "ffcf168b109dbaebc2dbdd0c6ac62b996c6461ae56a2249c3efcea35e8250ccd",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMInAnicrZJfSBRBHMfv/O9VWAolKQiLhqXJzO7t7uxBD1kqKVgPEiXqOTs7e27e
+3Z5366mIDwVpET1UECEZSX/Ql+LKLO0PapmYUhESpUZSD0G9aEghSDUr9VSPzcsw
+v/l8v/P9/ZgnG+IdLmeZlX6m3jWa5pwa7W52HMrKT2znVFNr4zztXCNd26hfoxHL
+22honIcDEECNFwQgAF6CWJAkN6RApioVCMFAUiRFEDRAIJQEBUAdu3ldwLKkyFDR
+EQ8Q1XiAuUJON4I+Gg6FjaDFbGUZKZhQDYoq0pHAi0iTMVBkBYsaQpIIeVEVMJKZ
+sMGM2AoWTsURWmSYrMYO3rV4/+D/c+7mNTuIeEGmQOEhkIlCRAiZCCKNQTLRoWKD
+ERoO4gBldIvh90doC/X7uY5CjtWjBqH2aO1e/mKKiBlg+lDYtExi+tldg2WFPLbU
+agutsVT1/nbxqkZQY6NkgigNRwwzyHkgI4ll2LbQLSMou2VeLORoa8gIU69hE6Is
+IcCW/QyNMktdZ7ElpEKgaCqmKuE1VWPzkDCReFVRJCK52dyoKGGedytEoDqhWBAp
+4kVAiMbZfTUFTc7jZjGxj1lGDF8QW81hynWMjdQkOJwuR1JinP3FHK7UjX8+3uKz
+FMfwpcM9x8ZXj/tzT+SX7Hf2F9Wd60tvCOyaH5Fre/LvppdkNtW4nn9y7Ltds1Cf
+tP3Yx17Uf/PIwL3BUz9ny5eWO6vuDKXeUK0V/5uchQcVtbeKFsqvTVQIF09n7Ske
+77swN7i3o3W16hKKxc4ecMb2JY9FF7vT8+KGx6Ew9v775WxfdmBqdxfuyo7RrYHK
+K9XrNuekuhJfzpUq1S/Get9+Self7pjpmvfenzzqyhytz/t20mFum/6c8Bq8Wv2R
+MbrSenUu+vDrlhLfUvmjjFvVqU+Hr/fkls4ezahM2HkorfbD0qlNOyYfdx5MPr2+
+7HzdxLRrgM7kFpQXvxsqji+NK/D9AnicNng=
+=Nu0j
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/willsewell
+
+==================================================================
+
