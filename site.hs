@@ -80,7 +80,7 @@ config :: Configuration
 config =
   defaultConfiguration
     { deployCommand =
-      "rsync --checksum -ave ssh _site/* me@willsewell.com:mysite2014"
+      "rsync --checksum -ave ssh _site/* root@willsewell.com:/var/www/willsewell.com"
     }
 
 myFeedConfiguration :: FeedConfiguration
