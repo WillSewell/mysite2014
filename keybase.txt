@@ -4,7 +4,7 @@ https://keybase.io/willsewell
 
 I hereby claim:
 
-  * I am an admin of http://willsewell.com
+  * I am an admin of https://willsewell.com
   * I am willsewell (https://keybase.io/willsewell) on keybase.
   * I have a public key with fingerprint 7789 ACED 15B8 F832 58D7  A097 9A5D 8865 125B 3A87
 
@@ -21,43 +21,49 @@ To do so, I am signing this object:
             "uid": "18237e092107c9c51190118dd207cf19",
             "username": "willsewell"
         },
+        "revoke": {
+            "sig_ids": [
+                "b1fad407368e40bd7545c9a672588513768f547eb1c50c000682f16e66c406760f"
+            ]
+        },
         "service": {
             "hostname": "willsewell.com",
-            "protocol": "http:"
+            "protocol": "https:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1478174725,
+    "ctime": 1485802409,
     "expire_in": 157680000,
-    "prev": "ffcf168b109dbaebc2dbdd0c6ac62b996c6461ae56a2249c3efcea35e8250ccd",
-    "seqno": 4,
+    "prev": "9416545466084ccdbbbb52b448a8adfb6fdc16f02b7f591d8786c231c3ae8882",
+    "seqno": 24,
     "tag": "signature"
 }
 
 which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.0.58
+Version: Keybase OpenPGP v2.0.62
 Comment: https://keybase.io/crypto
 
-yMInAnicrZJfSBRBHMfv/O9VWAolKQiLhqXJzO7t7uxBD1kqKVgPEiXqOTs7e27e
-3Z5366mIDwVpET1UECEZSX/Ql+LKLO0PapmYUhESpUZSD0G9aEghSDUr9VSPzcsw
-v/l8v/P9/ZgnG+IdLmeZlX6m3jWa5pwa7W52HMrKT2znVFNr4zztXCNd26hfoxHL
-22honIcDEECNFwQgAF6CWJAkN6RApioVCMFAUiRFEDRAIJQEBUAdu3ldwLKkyFDR
-EQ8Q1XiAuUJON4I+Gg6FjaDFbGUZKZhQDYoq0pHAi0iTMVBkBYsaQpIIeVEVMJKZ
-sMGM2AoWTsURWmSYrMYO3rV4/+D/c+7mNTuIeEGmQOEhkIlCRAiZCCKNQTLRoWKD
-ERoO4gBldIvh90doC/X7uY5CjtWjBqH2aO1e/mKKiBlg+lDYtExi+tldg2WFPLbU
-agutsVT1/nbxqkZQY6NkgigNRwwzyHkgI4ll2LbQLSMou2VeLORoa8gIU69hE6Is
-IcCW/QyNMktdZ7ElpEKgaCqmKuE1VWPzkDCReFVRJCK52dyoKGGedytEoDqhWBAp
-4kVAiMbZfTUFTc7jZjGxj1lGDF8QW81hynWMjdQkOJwuR1JinP3FHK7UjX8+3uKz
-FMfwpcM9x8ZXj/tzT+SX7Hf2F9Wd60tvCOyaH5Fre/LvppdkNtW4nn9y7Ltds1Cf
-tP3Yx17Uf/PIwL3BUz9ny5eWO6vuDKXeUK0V/5uchQcVtbeKFsqvTVQIF09n7Ske
-77swN7i3o3W16hKKxc4ecMb2JY9FF7vT8+KGx6Ew9v775WxfdmBqdxfuyo7RrYHK
-K9XrNuekuhJfzpUq1S/Get9+Self7pjpmvfenzzqyhytz/t20mFum/6c8Bq8Wv2R
-MbrSenUu+vDrlhLfUvmjjFvVqU+Hr/fkls4ezahM2HkorfbD0qlNOyYfdx5MPr2+
-7HzdxLRrgM7kFpQXvxsqji+NK/D9AnicNng=
-=Nu0j
+yMJtAnicrZJbaFRHGMc3TZVmoah5UDFFZIqxlyXMnLmeNehDW7wES8Fig01Z58zM
+2Zxms2c952RjDEGwIlsUta1QsYVKJa21KNSoNGJr13h5sGhfRNqKvZhWSUtLHwJK
+LzhnaZ/qo/MyzMz/+3+/7/vm3KPNmWzTiqT1jQ3Z+qymS/U7A5nu3Ts+GgZeqIdA
+fhj0mcZmStrESaEv0CAPIIJIOxhDDB2GJGaMIAO58QxWSkLmMhdjDRVCDLsQ+ZI4
+PpacuRy5vnCgMNqBEuSAH5SLJqpEQTmxtpwLVyqjEfWEL7BDheYSutyVVAvBKHKo
+h6XgNrA3jNMIC+fJ2HQEob2zh0ID7z76B8w90LBDwsHcQNdBkCtXUYRsEBLairjy
+kZsKYxOVZb+x6sGgVIrNoCmVwEgORKYa9pm0s3FQtNgxyL8MPJtSE8gxE4ZAT3NK
+qHIl47YVgiLMmfApsbxIUagghEw4PmKGMUUg4wz64BXrbXNWA9UwT/v0v/wdKuy3
+bJUoTEIVluxbb5JU4nzKlQxVGmLjFf61KXhBWds52YiqieIgLIM8skqVBKkvIoIK
+6BDo5oDZVAkiUwhSBbWwlhCmeUw1nQpBzNZDGIOCKKU9u6jjESKkkNr3mK8VYj50
+PO5TF2nBBVMORgpLI4RwQFrYxnII8g6xnLJoPW3vyjIZiAwYOftFz8OZpmxm5oyH
+0g+cybbM/u9b5/Y8krl8t75tTss+vqj1yUn9SffN2tjEyS+/2UgOHHpulCZ3X3+p
+NrJvSbj+xPHPfl56ovje2g9mH9syOgbfOdX24bo/vp8pbvZOzO1ZePTWsrXRt3F9
+eNXbv6z5ePzzhXun2rbfwhd/+30daBlaML4gkz3z98BcM0h/fKbrz/3steaVxU49
+uH/03cPX6Z0zx1on37zw6srL85Zc2ZQjXU+/OLm786/3p5vlEb6tf+zXne3TW7f0
+jJ3/dHi9eOtr/+Q/Kx7PPXFwfgYc3/XUjraDt3/oqk21VK+5q+We76a7X9Dx1LMX
+42pcn7F3zaUDNzaX21c1r77y/NXHFt9u75yz88LSr04fri2f+Mk/d36kdg9f4Vb+
+=zrue
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
@@ -66,4 +72,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/willsewell
 
 ==================================================================
-
