@@ -23,6 +23,14 @@ for more detail.
 
 <iframe width="600" height="315" src="https://www.youtube.com/embed/nckseQJ1Nlg?rel=0" frameborder="0" allowfullscreen></iframe>
 
+### At The Realtime Guild (5th February 2017)
+
+[Talk page](https://www.meetup.com/the-realtime-guild/events/236641668/)
+
+<script src="https://fast.wistia.com/embed/medias/tw39f9dh29.jsonp" async></script>
+<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+<div class="wistia_embed wistia_async_tw39f9dh29 autoPlay=false" style="height:315px;width:600px">&nbsp;</div>
+
 ## Building a fast and durable pub/sub message bus in Haskell
 
 ### At CUFP (24th September 2016)
