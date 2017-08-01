@@ -19,6 +19,12 @@ Check out the [source blog
 post](https://making.pusher.com/golangs-real-time-gc-in-theory-and-practice/)
 for more detail.
 
+### At GoWayFest (21st July 2017)
+
+<iframe width="600" height="315" src="https://www.youtube.com/embed/JeRgxCOFRaE?rel=0&t=6h45m18s" frameborder="0" allowfullscreen></iframe>
+
+[Talk page](http://goway.io/)
+
 ### At NotHSCon (10th March 2017)
 
 <iframe width="600" height="315" src="https://www.youtube.com/embed/nckseQJ1Nlg?rel=0" frameborder="0" allowfullscreen></iframe>
