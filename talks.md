@@ -21,7 +21,7 @@ for more detail.
 
 ### At GoWayFest (21st July 2017)
 
-<iframe width="600" height="315" src="https://www.youtube.com/embed/JeRgxCOFRaE?rel=0&t=6h45m18s" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="315" src="https://www.youtube.com/embed/5hNRcoH4-Lk?rel=0" frameborder="0" allowfullscreen></iframe>
 
 [Talk page](http://goway.io/)
 
