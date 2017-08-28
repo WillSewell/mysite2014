@@ -7,7 +7,7 @@ Haskell and Go. By chance, the primary focus has been on GC pause times in both
 those languages; I find the topic fascinating, but it won't necessarily be the
 focus of future talks.
 
-If you would like me to give a talk, [please get in touch](/contact.html).
+If you would like me to give a talk, please get in touch.
 
 ## Golang's realtime GC
 

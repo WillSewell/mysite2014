@@ -38,11 +38,19 @@ div#header #navigation a {
 
 div#footer {
     border-top: solid 2px black;
-    color: #555;
-    font-size: 12px;
     margin-top: 30px;
     padding: 12px 0px 12px 0px;
+}
+
+div#footer #social-icons {
+    float: left;
+}
+
+div#footer #credit {
+    float: right;
+    font-size: 12px;
     text-align: right;
+    color: #555;
 }
 
 h1 {
@@ -61,4 +69,9 @@ div.info {
     color: #555;
     font-size: 14px;
     font-style: italic;
+}
+
+a.no-style {
+    color: black;
+    text-decoration: none;
 }

@@ -12,12 +12,6 @@ main =
     match "css/*" $ do
       route idRoute
       compile compressCssCompiler
-    match "contact.md" $ do
-      route $ setExtension "html"
-      compile $
-        pandocCompiler >>=
-        loadAndApplyTemplate "templates/default.html" defaultContext >>=
-        relativizeUrls
     match "talks.md" $ do
       route $ setExtension "html"
       compile $
