@@ -59,6 +59,9 @@ main =
     match "keybase.txt" $ do
       route idRoute
       compile copyFileCompiler
+    match "favicon.ico" $ do
+      route idRoute
+      compile copyFileCompiler
 
 postCtx :: Context String
 postCtx = dateField "date" "%B %e, %Y" <> defaultContext
