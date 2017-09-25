@@ -6,7 +6,8 @@ import Hakyll
 main :: IO ()
 main =
   hakyllWith config $ do
-    match ("images/*" .||. "bower_components/**") $ do
+    match
+      ("images/*" .||. "bower_components/**" .||. "keybase.txt" .||. "favicon*") $ do
       route idRoute
       compile copyFileCompiler
     match "css/*" $ do
@@ -21,8 +22,7 @@ main =
     match "posts/*" $ do
       route $ setExtension "html"
       compile $
-        pandocCompiler >>=
-        loadAndApplyTemplate "templates/post.html" postCtx >>=
+        pandocCompiler >>= loadAndApplyTemplate "templates/post.html" postCtx >>=
         saveSnapshot "content" >>=
         loadAndApplyTemplate "templates/default.html" postCtx >>=
         relativizeUrls
@@ -56,12 +56,6 @@ main =
         posts <-
           fmap (take 10) . recentFirst =<< loadAllSnapshots "posts/*" "content"
         renderAtom myFeedConfiguration feedCtx posts
-    match "keybase.txt" $ do
-      route idRoute
-      compile copyFileCompiler
-    match "favicon.ico" $ do
-      route idRoute
-      compile copyFileCompiler
 
 postCtx :: Context String
 postCtx = dateField "date" "%B %e, %Y" <> defaultContext
