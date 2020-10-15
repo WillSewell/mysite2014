@@ -1,5 +1,5 @@
 ---
-title: How Pusher unified the product dashboards (and why we had two in the first place)
+title: How Pusher unified the product dashboards
 description: >-
   I don't think any company intends on having two dashboards (!), but that
   is exactly what we ended up with at Pusher. This post is a reflection on
