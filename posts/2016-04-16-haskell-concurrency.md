@@ -1,5 +1,7 @@
 ---
 title: Concurrency in Haskell presentation
+description: >-
+  Slides from a presentation I gave on concurrency in Haskell.
 ---
 
 I recently gave a presentation at Pusher on concurrency in Haskell. There

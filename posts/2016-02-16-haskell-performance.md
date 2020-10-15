@@ -1,5 +1,7 @@
 ---
 title: 3 part series on Haskell performance
+description: >-
+  3 part series on improving performance of Haskell programs.
 ---
 
 Over the last couple of months I have been writing up tips and techniques I have
