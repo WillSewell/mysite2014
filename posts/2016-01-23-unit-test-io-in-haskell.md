@@ -1,5 +1,7 @@
 ---
 title: Unit testing IO in Haskell (revisited)
+description: >-
+  An approach to unit testing IO in Haskell.
 ---
 
 A couple of months back I posted an [article](https://blog.pusher.com/unit-testing-io-in-haskell/) on the Pusher blog about a technique
