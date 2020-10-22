@@ -15,8 +15,8 @@ develop the
 library in my free time.
 
 I love getting to the bottom of obscure production bugs or performance
-issues. If I think I learn something interesting, I like to write it up
-as a [blog post](blog.html).
+issues. If I learn something interesting, I like to write it up as a
+[blog post](blog.html).
 
 Previously I did an MPhil (masters) degree in Advanced Computer Science
 at the University of Cambridge where I focused on the topics mentioned
