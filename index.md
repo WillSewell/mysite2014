@@ -16,7 +16,7 @@ library in my free time.
 
 I love getting to the bottom of obscure production bugs or performance
 issues. I like to write [blog posts](blog.html) about the things I
-learn. Check them out!
+learn.
 
 Previously I did an MPhil (masters) degree in Advanced Computer Science
 at the University of Cambridge where I focused on the topics mentioned
@@ -28,7 +28,7 @@ things.
 That's enough about tech!
 
 I like cycling and running. My unusual hobby is to maintain a
-[jarrarium](https://www.reddit.com/r/Jarrariums/). I also like watching
+[jarrarium](https://www.reddit.com/r/Jarrariums/). I also enjoy watching
 [Cities: Skylines](https://www.citiesskylines.com/) videos. If you need
 convincing, you must watch [this
 series](https://www.youtube.com/watch?v=mO7waxG-KMU&list=PLkBlOw_hzgdfL6Gqw0l9P1TYKn_WIgrd-)
@@ -43,6 +43,6 @@ always appreciate recommendations.
 I love maps! Do you ever find yourself opening Google Maps for no reason
 and aimlessly scroll around? I do. Maybe it's just me.
 
-To relax I like building 90s lego sets and doing jigsaw puzzles. I most
-recently completed a 1,000 piece puzzle of the surface of Earth. There's
-a lotta ocean on planet Earth...
+To relax I build 90s lego sets and doing jigsaw puzzles. I most recently
+completed a 1,000 piece puzzle of the surface of Earth. There's a lotta
+ocean on planet Earth...
