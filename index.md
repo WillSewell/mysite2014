@@ -15,8 +15,8 @@ develop the
 library in my free time.
 
 I love getting to the bottom of obscure production bugs or performance
-issues. I like to write [blog posts](blog.html) about the things I
-learn.
+issues. If I think I learn something interesting, I like to write it up
+as a [blog post](blog.html).
 
 Previously I did an MPhil (masters) degree in Advanced Computer Science
 at the University of Cambridge where I focused on the topics mentioned
@@ -27,7 +27,7 @@ things.
 
 That's enough about tech!
 
-I like cycling and running. My unusual hobby is to maintain a
+To keep fit I go cycling or running. My unusual hobby is to maintain a
 [jarrarium](https://www.reddit.com/r/Jarrariums/). I also enjoy watching
 [Cities: Skylines](https://www.citiesskylines.com/) videos. If you need
 convincing, you must watch [this
