@@ -2,6 +2,7 @@
 title: Home
 ---
 
+<img width="200x" height="200px" style="float: right;" src="/images/me.png">
 
 Hello, I'm Will Sewell. I'm a software engineer with a focus on
 distributed systems and cloud infrastructure. For the past 6 years I've
