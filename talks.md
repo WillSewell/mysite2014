@@ -23,13 +23,13 @@ for more detail.
 
 <iframe width="600" height="315" src="https://www.youtube.com/embed/bMujSVMarqY?rel=0" frameborder="0" allowfullscreen></iframe>
 
-[Talk page](https://www.golanguk.com/schedule/)
+[Talk page](https://www.gophercon.co.uk/archive/2017/schedule/)
 
 ### At GoWayFest (21st July 2017)
 
 <iframe width="600" height="315" src="https://www.youtube.com/embed/5hNRcoH4-Lk?rel=0" frameborder="0" allowfullscreen></iframe>
 
-[Talk page](http://goway.io/)
+[Talk page](https://2017.goway.io/)
 
 ### At NotHSCon (10th March 2017)
 
