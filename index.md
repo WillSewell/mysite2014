@@ -19,11 +19,10 @@ issues. If I learn something interesting, I like to write it up as a
 [blog post](blog.html).
 
 Previously I did an MPhil (masters) degree in Advanced Computer Science
-at the University of Cambridge where I focused on the topics mentioned
-above, alongside more theoretical courses like category theory and
-abstract algebra. I wrote [an essay on models of trust
-propagation](https://www.dropbox.com/s/rxg2fiqzj6zlj01/essay.pdf) of all
-things.
+at the University of Cambridge where I focused on theoretical courses
+like category theory and abstract algebra. I wrote [an essay on models
+of trust
+propagation](https://www.dropbox.com/s/rxg2fiqzj6zlj01/essay.pdf).
 
 That's enough about tech!
 
