@@ -11,7 +11,7 @@ If you would like me to give a talk, please get in touch.
 
 ## Golang's realtime GC
 
-I give this talk alongside [Jim Fisher](https://jameshfisher.github.io/). He
+I give this talk alongside [Jim Fisher](https://jameshfisher.com/). He
 gives the initial, theoretical, half and I give the second half, which focuses
 on empirical measurements.
 
