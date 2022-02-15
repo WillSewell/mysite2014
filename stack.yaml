@@ -1,5 +1,6 @@
 flags: {}
 packages:
 - '.'
-extra-deps: []
-resolver: lts-11.22
+extra-deps:
+- hakyll-4.15.1.0
+resolver: lts-18.25
