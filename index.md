@@ -5,8 +5,9 @@ title: Home
 <img width="200x" height="200px" style="float: right;" src="/images/me.png">
 
 Hello, I'm Will Sewell. I'm a software engineer with a focus on
-distributed systems and cloud infrastructure. For the past 6 years I've
-been working at [Pusher](https://pusher.com/) on their
+distributed systems and cloud infrastructure. I currently work in
+the platform team at [Monzo](https://monzo.com/). Before that I spent
+6 years working at [Pusher](https://pusher.com/) on their
 [Channels](https://pusher.com/channels) product.
 
 I'm enthusiastic about functional programming (Haskell in particular),
