@@ -26,7 +26,7 @@ It's not "move fast". Who wouldn't want to move fast? How does that aid decision
 
 Move fast and break things.
 
-I just searched for anti-values amongst lists of values that tech some tech companies have published. They're rare. But they exist. Here's two:
+I just searched for anti-values amongst lists of values that some tech companies have published. They're rare. But they exist. Here's two:
 
 * We are a winning team, not a family
 * Frugality
