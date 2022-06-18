@@ -9,6 +9,18 @@ focus of future talks.
 
 If you would like me to give a talk, please get in touch.
 
+## How Monzo deploys to production 100 times a day
+
+In this talk I show you how we at Monzo have optimised our engineering culture,
+tooling, and architecture to make the path from idea to production as frictionless
+as possible, all without sacrificing safety.
+
+### At The Fusion Hub (16th June 2022)
+
+<iframe width="600" height="315" src="https://www.youtube.com/embed/v6psOzsghT8?start=2447" frameborder="0" allowfullscreen></iframe>
+
+[Talk page](https://www.eventbrite.co.uk/e/fusion-meetup-june-2022-tickets-341646051537)
+
 ## Golang's realtime GC
 
 I give this talk alongside [Jim Fisher](https://jameshfisher.com/). He
