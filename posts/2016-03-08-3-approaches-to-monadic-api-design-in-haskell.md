@@ -6,7 +6,7 @@ description: >-
   When designing a monadic API the right choice becomes even less obvious.
   In this post I will discuss 3 general approaches, along with their
   associated pros and cons.
-url: https://making.pusher.com/3-approaches-to-monadic-api-design-in-haskell/
+url: https://pusher.com/blog/3-approaches-to-monadic-api-design-in-haskell/
 external: true
 root: ''
 ---

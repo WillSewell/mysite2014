@@ -7,7 +7,7 @@ description: >-
   In this blog post, I want to demonstrate how this is an an effective
   technique for testing distributed/concurrent systems, what makes it
   challenging and how you can do it yourself.
-url: https://making.pusher.com/fuzz-testing-distributed-systems-with-quickcheck/
+url: https://pusher.com/blog/fuzz-testing-distributed-systems-with-quickcheck/
 external: true
 root: ''
 ---

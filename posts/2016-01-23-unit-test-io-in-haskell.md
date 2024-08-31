@@ -4,14 +4,14 @@ description: >-
   An approach to unit testing IO in Haskell.
 ---
 
-A couple of months back I posted an [article](https://blog.pusher.com/unit-testing-io-in-haskell/) on the Pusher blog about a technique
+A couple of months back I posted an [article](https://pusher.com/blog/unit-testing-io-in-haskell/) on the Pusher blog about a technique
 we had tried for unit testing `IO` in Haskell. Essentially it involved switching
 out `IO` for typeclasses, and then making IO an instance of those typeclasses,
 as well as mocks.
 
 This generated a lot of interesting discussion in the comments, on [reddit](https://www.reddit.com/r/haskell/comments/3omsmx/unit_testing_io_in_haskell/)
 and [Hacker News](https://news.ycombinator.com/item?id=10392044). After reading
-Gregory Collins' [comment](https://blog.pusher.com/unit-testing-io-in-haskell/#comment-2280443222)
+Gregory Collins' [comment](https://pusher.com/blog/unit-testing-io-in-haskell/#comment-2280443222)
 we decided to try out his approach and so far it has worked out much better for us.
 Here is an example of how this would work for mocking a socket:
 

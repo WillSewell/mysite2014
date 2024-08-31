@@ -5,7 +5,7 @@ description: >-
   is exactly what we ended up with at Pusher. This post is a reflection on
   how we ended up in this situation and explain the steps we took to
   remedy it.
-url: https://blog.pusher.com/how-pusher-unified-the-product-dashboards/
+url: https://pusher.com/blog/how-pusher-unified-the-product-dashboards/
 external: true
 root: ''
 ---

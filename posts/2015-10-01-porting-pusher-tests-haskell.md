@@ -8,6 +8,6 @@ Over the last few months I have been writing blog posts for the Pusher blog. As 
 
 So without further ado, here is the first blog post I wrote some months ago after I had completed my first introductory project at Pusher.
 
-[Porting the Pusher integration tests to Haskell](https://blog.pusher.com/porting-the-pusher-integration-tests-to-haskell/)
+[Porting the Pusher integration tests to Haskell](https://pusher.com/blog/porting-the-pusher-integration-tests-to-haskell/)
 
 Shortly I will link to a more recent -- and more technical -- post that I wrote up. In the future I will created a new post here as and when I write new ones -- I have a couple in the pipeline!

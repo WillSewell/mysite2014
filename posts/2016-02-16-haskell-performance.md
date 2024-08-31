@@ -9,12 +9,12 @@ come across while optimising our Haskell-based message bus. These appear as
 a series of three posts on the Pusher blog, and you can dive into whichever you
 like depending on what you are trying to do.
 
-[Top tips and tools for optimising Haskell](http://blog.pusher.com/top-tips-and-tools-for-optimising-haskell/)
+[Top tips and tools for optimising Haskell](https://pusher.com/blog/top-tips-and-tools-for-optimising-haskell/)
 
 This post goes into some simple tricks that can improve performance, as well as
 tools you will likely want to try when investigating CPU usage.
 
-[Memory profiling in Haskell](http://blog.pusher.com/memory-profiling-in-haskell/)
+[Memory profiling in Haskell](https://pusher.com/blog/memory-profiling-in-haskell/)
 
 This post looks at tools that you can use to get an insight into the memory
 usage of your program. There are two reasons why you would want to do this:
@@ -22,7 +22,7 @@ usage of your program. There are two reasons why you would want to do this:
 1. to find performance bottlenecks
 2. to track down memory leaks
 
-[Making Efficient use of memory in Haskell](http://blog.pusher.com/making-efficient-use-of-memory-in-haskell/)
+[Making Efficient use of memory in Haskell](https://pusher.com/blog/making-efficient-use-of-memory-in-haskell/)
 
 Finally I present all the ways I have found so far for making as efficient use
 of memory as possible.
