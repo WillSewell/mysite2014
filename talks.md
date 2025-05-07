@@ -9,6 +9,21 @@ focus of future talks.
 
 If you would like me to give a talk, please get in touch.
 
+## How Monzo migrated 2,800 microservices to OpenTelemetry
+
+This talk shows how we at Monzo are able to run sweeping migrations across all
+of our microservices. It covers the migrations principles as well as the tools
+and technologies that make this possible. Since this was an Observability meetup,
+I used our migration to
+<a href="https://opentelemetry.io/" target="_blank">OpenTelemetry</a>
+as a case study.
+
+### At The London Observability Engineering Meetup (16th June 2022)
+
+<iframe width="600" height="315" src="https://www.youtube.com/embed/cKnpVEoV9oc" frameborder="0" allowfullscreen></iframe>
+
+[Talk page](https://www.meetup.com/observability_engineering/events/303878428/)
+
 ## How Monzo deploys to production 100 times a day
 
 In this talk I show you how we at Monzo have optimised our engineering culture,
